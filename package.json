@@ -1,0 +1,51 @@
+{
+  "name": "pkg-man-cli",
+  "version": "0.0.0",
+  "description": "Detect which package manager that should be used",
+  "license": "MIT",
+  "repository": "https://github.com/luftywiranda13/pkg-man-cli",
+  "author": {
+    "name": "Lufty Wiranda",
+    "email": "lufty.wiranda@gmail.com",
+    "url": "https://instagram.com/luftywiranda13"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "precommit": "remove-lockfiles",
+    "test": "xo && jest"
+  },
+  "bin": {
+    "pkg-man": "cli.js",
+    "pkg-man-cli": "cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "dependencies": {
+    "meow": "^3.7.0",
+    "pkg-man": "^1.0.1"
+  },
+  "devDependencies": {
+    "async-to-gen": "^1.3.3",
+    "execa": "^0.8.0",
+    "husky": "^0.14.3",
+    "jest": "^21.0.2",
+    "remove-lockfiles": "^1.1.1",
+    "xo": "^0.18.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.js$": "async-to-gen"
+    }
+  },
+  "xo": {
+    "space": true,
+    "envs": [
+      "jest"
+    ]
+  },
+  "keywords": []
+}
