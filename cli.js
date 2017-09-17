@@ -4,8 +4,7 @@
 const meow = require('meow');
 const pkgMan = require('pkg-man');
 
-const cli = meow(
-  `
+const cli = meow(`
   Usage
     $ pkg-man <path>
 
@@ -20,9 +19,7 @@ const cli = meow(
     $ pkg-man ../foo/bar --default yarn
 `,
   {
-    string: [
-      'default'
-    ],
+    string: ['default'],
     alias: {
       d: 'default'
     }

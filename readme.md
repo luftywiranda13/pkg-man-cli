@@ -14,7 +14,7 @@ npm install --global pkg-man-cli
 
 ## Usage
 
-```
+```sh
 $ pkg-man --help
 
   Usage
@@ -33,9 +33,9 @@ $ pkg-man --help
 
 ## Related
 
-- [pkg-man](https://github.com/luftywiranda13/pkg-man) - API for this module
-- [del-nm-cli](https://github.com/luftywiranda13/del-nm-cli) - Delete `node_modules` and lockfile (if any)
+- [pkg-man](https://github.com/luftywiranda13/pkg-man) － API for this module
+- [del-nm-cli](https://github.com/luftywiranda13/del-nm-cli) － Delete `node_modules` and lockfiles
 
 ## License
 
-MIT &copy; [Lufty Wiranda](https://instagram.com/luftywiranda13)
+MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13)
