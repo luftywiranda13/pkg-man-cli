@@ -19,9 +19,12 @@ const cli = meow(`
     $ pkg-man ../foo/bar --default yarn
 `,
   {
-    string: ['default'],
-    alias: {
-      d: 'default'
+    flags: {
+      default: {
+        type: 'string',
+        alias: 'd',
+        default: 'npm'
+      }
     }
   }
 );

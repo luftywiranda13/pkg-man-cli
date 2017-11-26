@@ -24,7 +24,7 @@
     "cli.js"
   ],
   "dependencies": {
-    "meow": "^3.7.0",
+    "meow": "^4.0.0",
     "pkg-man": "^1.0.1"
   },
   "devDependencies": {
