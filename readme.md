@@ -1,10 +1,10 @@
 # pkg-man-cli
 
-[![Package Version](https://img.shields.io/npm/v/pkg-man-cli.svg)](https://www.npmjs.com/package/pkg-man-cli)
-[![Build Status: Linux](https://img.shields.io/travis/luftywiranda13/pkg-man-cli/master.svg)](https://travis-ci.org/luftywiranda13/pkg-man-cli)
-[![Downloads Status](https://img.shields.io/npm/dm/pkg-man-cli.svg)](https://npm-stat.com/charts.html?package=pkg-man-cli&from=2016-04-01)
+> Detect which package manager that should be used
 
-Detect which package manager that should be used
+[![Package Version](https://img.shields.io/npm/v/pkg-man-cli.svg?style=flat-square)](https://www.npmjs.com/package/pkg-man-cli)
+[![Downloads Status](https://img.shields.io/npm/dm/pkg-man-cli.svg?style=flat-square)](https://npm-stat.com/charts.html?package=pkg-man-cli&from=2016-04-01)
+[![Build Status: Linux](https://img.shields.io/travis/luftywiranda13/pkg-man-cli/master.svg?style=flat-square)](https://travis-ci.org/luftywiranda13/pkg-man-cli)
 
 ## Installation
 
@@ -18,7 +18,7 @@ npm install --global pkg-man-cli
 $ pkg-man --help
 
   Usage
-    $ pkg-man <path>
+    $ pkg-man [path]
 
   Options
     -d, --default  Default package manager if lockfile wasn't found
@@ -33,9 +33,8 @@ $ pkg-man --help
 
 ## Related
 
-- [pkg-man](https://github.com/luftywiranda13/pkg-man) － API for this module
-- [del-nm-cli](https://github.com/luftywiranda13/del-nm-cli) － Delete `node_modules` and lockfiles
+* [pkg-man](https://github.com/luftywiranda13/pkg-man) － API for this module
 
 ## License
 
-MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13)
+MIT &copy; [Lufty Wiranda](https://www.luftywiranda.com)
