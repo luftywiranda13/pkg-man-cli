@@ -25,7 +25,7 @@
   ],
   "dependencies": {
     "meow": "^4.0.0",
-    "pkg-man": "^1.0.1"
+    "pkg-man": "^2.0.0"
   },
   "devDependencies": {
     "async-to-gen": "^1.3.3",
