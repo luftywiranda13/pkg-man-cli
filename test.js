@@ -14,7 +14,7 @@ describe('CLI', () => {
   });
 
   test('default', async () => {
-    const log = await execa('./cli.js', ['fixtures', '-d', 'yarn']);
+    const log = await execa('./cli.js', ['fixtures', '-p', 'yarn']);
     expect(log.stdout).toBe('yarn');
   });
 });
