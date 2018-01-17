@@ -10,24 +10,24 @@ const cli = meow(
     $ pkg-man [path]
 
   Options
-    -d, --default  Default package manager if lockfile wasn't found
+    -p, --preferred  Preferred package manager [Default: npm]
 
   Examples
     $ pkg-man
     $ pkg-man foo
     $ pkg-man bar
-    $ pkg-man ../foo --default npm
-    $ pkg-man ../foo/bar --default yarn
+    $ pkg-man ../foo --preferred npm
+    $ pkg-man ../foo/bar --preferred yarn
 `,
   {
     flags: {
-      default: {
+      preferred: {
         type: 'string',
-        alias: 'd',
+        alias: 'p',
         default: 'npm',
       },
     },
   }
 );
 
-console.log(pkgMan(cli.input[0], cli.flags));
+console.log(pkgMan({ cwd: cli.input[0], preferred: cli.flags.preferred }));
