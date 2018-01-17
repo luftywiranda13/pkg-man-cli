@@ -4,9 +4,10 @@
 const meow = require('meow');
 const pkgMan = require('pkg-man');
 
-const cli = meow(`
+const cli = meow(
+  `
   Usage
-    $ pkg-man <path>
+    $ pkg-man [path]
 
   Options
     -d, --default  Default package manager if lockfile wasn't found
@@ -23,9 +24,9 @@ const cli = meow(`
       default: {
         type: 'string',
         alias: 'd',
-        default: 'npm'
-      }
-    }
+        default: 'npm',
+      },
+    },
   }
 );
 

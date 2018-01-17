@@ -4,7 +4,9 @@ notifications:
 node_js:
   - '8'
   - '6'
-  - '4'
+script:
+  - node node_modules/.bin/prettier -l "*.{js,json,md}"
+  - npm test
 branches:
   only:
     - master
