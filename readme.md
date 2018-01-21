@@ -1,5 +1,7 @@
 # pkg-man-cli
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/luftywiranda13/pkg-man-cli.svg)](https://greenkeeper.io/)
+
 > Detect which package manager that should be used
 
 [![Package Version](https://img.shields.io/npm/v/pkg-man-cli.svg?style=flat-square)](https://www.npmjs.com/package/pkg-man-cli)
